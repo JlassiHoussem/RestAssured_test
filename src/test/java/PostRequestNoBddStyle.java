@@ -1,5 +1,6 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.Assert;
 
 public class PostRequestNoBddStyle {
 
@@ -22,7 +23,9 @@ public class PostRequestNoBddStyle {
                 .post();  // direct POST call without then()
 
         // Print response status code
-        System.out.println("Status Code: " + response.getStatusCode());
+        int statuscode =response.getStatusCode();
+        System.out.println("Status Code: " + statuscode );
+        Assert.assertEquals(statuscode ,201);
 
         // Print response body
         System.out.println("Response Body:");
