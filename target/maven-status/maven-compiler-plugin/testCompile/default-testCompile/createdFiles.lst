@@ -1,0 +1,7 @@
+getByIdRequest.class
+getRequest.class
+postRequest.class
+GetRequestNoBddStyle.class
+tests\GetRequestForAutomation.class
+QueryParam.class
+PostRequestNoBddStyle.class

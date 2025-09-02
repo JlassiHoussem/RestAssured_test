@@ -1,9 +1,10 @@
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
+import org.testng.annotations.Test;
 
 public class getRequest {
 
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
 
         //api reqres.in
         //RestAssured.given().baseUri("https://reqres.in/api/users").when().get().prettyPrint();

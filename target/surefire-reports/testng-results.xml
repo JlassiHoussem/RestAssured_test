@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-02T01:06:49 WAT" name="RestAssuredSuite" finished-at="2025-09-02T01:06:50 WAT" duration-ms="1354">
+    <groups>
+    </groups>
+    <test started-at="2025-09-02T01:06:49 WAT" name="APITests" finished-at="2025-09-02T01:06:50 WAT" duration-ms="1354">
+      <class name="tests.GetRequestForAutomation">
+        <test-method signature="testGetUsers()[pri:0, instance:tests.GetRequestForAutomation@3b0fe47a]" started-at="2025-09-02T01:06:49 WAT" name="testGetUsers" finished-at="2025-09-02T01:06:50 WAT" duration-ms="1274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsers -->
+      </class> <!-- tests.GetRequestForAutomation -->
+    </test> <!-- APITests -->
+  </suite> <!-- RestAssuredSuite -->
+</testng-results>
